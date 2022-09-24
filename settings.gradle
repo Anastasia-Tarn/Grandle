@@ -1,0 +1,5 @@
+rootProject.name = 'Grandle'
+include 'db'
+include 'service'
+include 'api'
+

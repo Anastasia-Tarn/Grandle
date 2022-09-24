@@ -1,0 +1,15 @@
+plugins {
+    id 'java'
+}
+
+group 'ru.netology'
+version '1.0-SNAPSHOT'
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+ implementation project("ru.netology:db:1.0-SNAPSHOT")
+ implementation project("ru.netology:service:1.0-SNAPSHOT")
+}
